@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* sheard style */
+.dark-2{
+    color: #414040;
+}
+.dark-3{
+    color: #707070;
+}
+/*nav style start */
+nav{
+    max-width: 1160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid red 2px;
+    margin: 0 auto;
+    padding: 30px;
+
+}
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.nav-logo h1{
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+.nav-link ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.nav-link ul li{
+    font-size: 1rem;
+    font-weight: 400;
+    list-style: none;
+    
+}
+.nav-link ul li a{
+    text-decoration: none;
+    color:#707070 ;
+}
+.nav-link i{
+    transform: rotate(-90deg);
+    margin-left: 8px;
+}
+.nav-btn a{
+    background-color: #B68C5A;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 10px;
+
+}
