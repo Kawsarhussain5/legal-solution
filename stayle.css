@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
 }
+main{
+    max-width: 1160px;
+    border: solid red 2px;
+    margin: 0 auto;
+
+}
 
 /* sheard style */
 .dark-2{
@@ -28,7 +34,6 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: solid red 2px;
     margin: 0 auto;
     padding: 20px 0;
 
@@ -97,4 +102,55 @@ nav{
     border: none;
     margin-right: 10px;
 }
+/*The Legal Practice Area section start */
+.legal-practice-title{
+    text-align: center;
+    padding: 100px 0;
+}
+.legal-practice-title h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
 
+}
+.legal-practice-title p{
+    font-weight: 400;
+    line-height: 25px;
+}
+.legal-practice-area-model-box{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    row-gap: 20px;
+
+}
+.legal-practice-area-box{
+    max-width: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid rgb(231, 231, 231);
+}
+.legal-practice-area-box h1{
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 25px;
+}
+.legal-practice-area-box p{
+    font-weight: 400;
+}
+/*What Our Client Say start*/
+.What-Our-Client-Say-title{
+    text-align: center;
+    padding: 100px 0;
+}
+.What-Our-Client-Say-title h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+
+}
+.What-Our-Client-Say-title p{
+    font-weight: 400;
+    line-height: 25px;
+}
