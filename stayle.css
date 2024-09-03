@@ -154,3 +154,39 @@ nav{
     font-weight: 400;
     line-height: 25px;
 }
+.Our-Client-Say-conteinar{
+    background-image: url("/images/banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+}
+.Our-Client-Say-title{
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin: 0 auto;
+}
+.Our-Client-Say-title h1{
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: white;
+}
+/*Contact With Us start*/
+.Contact-With-Us-title{
+    text-align: center;
+    padding: 100px 0;
+}
+.Contact-With-Us-title h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+
+}
+.Contact-With-Us-title p{
+    font-weight: 400;
+    line-height: 25px;
+}
