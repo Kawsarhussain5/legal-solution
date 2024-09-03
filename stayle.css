@@ -10,6 +10,18 @@
 .dark-3{
     color: #707070;
 }
+.dark-6{
+    color: #E7E7E7;
+}
+.btn{
+    background-color: #B68C5A;
+    color: white;
+    padding: 10px 25px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+}
 /*nav style start */
 nav{
     max-width: 1160px;
@@ -18,7 +30,7 @@ nav{
     align-items: center;
     border: solid red 2px;
     margin: 0 auto;
-    padding: 30px;
+    padding: 20px 0;
 
 }
 .nav-logo{
@@ -53,12 +65,36 @@ nav{
     margin-left: 8px;
 }
 .nav-btn a{
-    background-color: #B68C5A;
-    color: white;
-    padding: 15px;
     text-decoration: none;
-    font-size: 1.1rem;
-    font-weight: 600;
-    border-radius: 10px;
-
+    color: white;
 }
+/*bennar section start*/
+.bennar-conteinar{
+    max-width: 1160px;
+    background-image: url("./images/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+}
+.bennar-descreption{
+ text-align: center;
+ padding: 100px 0;
+}
+.bennar-descreption h1{
+    color: white;
+    font-size: 4.4rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.bennar-descreption p{
+    line-height: 20px;
+    padding-bottom: 20px;
+}
+.bennar-descreption input{
+    padding: 12px 100px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 10px;
+}
+
