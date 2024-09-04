@@ -190,3 +190,48 @@ nav{
     font-weight: 400;
     line-height: 25px;
 }
+.contact-us-main-conteinar{
+ display: grid;
+ grid-template-columns: repeat(2,1fr);
+ padding: 100px 0;
+}
+.contact-us-conteinar-1{
+    max-width: 550px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+}
+.contact-us-conteinar-box{
+    max-width: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid rgb(231, 231, 231);
+}
+.contact-us-conteinar-box h1{
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 25px;
+}
+.contact-us-conteinar-box p{
+    font-weight: 400;
+}
+.contact-us-conteinar-2{
+    max-width: 550px;
+    
+}
+.contact-us-conteinar-2 input{
+    padding: 20px 150px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: none;
+   
+}
+.contact-us-conteinar-2 .massege{
+ height: 100px;
+}
+.contact-us-conteinar-2 .btn-2{
+    padding: 10px 150px;
+}
