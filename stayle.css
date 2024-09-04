@@ -16,6 +16,9 @@ main{
 .dark-3{
     color: #707070;
 }
+.dark-5{
+    color: #CFCFCF;
+}
 .dark-6{
     color: #E7E7E7;
 }
@@ -193,7 +196,7 @@ nav{
 .contact-us-main-conteinar{
  display: grid;
  grid-template-columns: repeat(2,1fr);
- padding: 100px 0;
+ padding-bottom: 100px;
 }
 .contact-us-conteinar-1{
     max-width: 550px;
@@ -235,3 +238,60 @@ nav{
 .contact-us-conteinar-2 .btn-2{
     padding: 10px 150px;
 }
+
+/*footer*/
+footer{
+    background-color: black;
+}
+.footer-main-conteinar{
+    max-width: 1160px;
+    margin: 0 auto;
+    border: solid red 2px;
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-conteinar2 h5{
+  color: white;
+  padding-bottom: 5px;
+  font-size: 1.5rem;
+}
+.footer-conteinar2 p{
+    color: white;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+.footer-conteinar3 h4{
+    color: white;
+  padding-bottom: 5px;
+  font-size: 1.5rem;
+  }
+  .footer-conteinar3 p{
+    color: white;
+    font-weight: 400;
+    padding-bottom: 5px;
+  }
+
+  .footer-conteinar4 h4{
+    color: white;
+  padding-bottom: 5px;
+  font-size: 1.5rem;
+  }
+  .footer-conteinar4 p{
+    color: white;
+    font-weight: 400;
+    padding-bottom: 5px;
+  }
+  .footer-conteinar4 input{
+    padding: 11px 30px;
+    border-radius: 10px;
+
+    border: none;
+  }
+  .footer-conteinar4 i{
+    background-color: #B68C5A;
+    padding: 11px 10px;
+    border-radius: 10px;
+  }
